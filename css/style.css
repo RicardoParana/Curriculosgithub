@@ -1,0 +1,348 @@
+
+body{
+
+margin: 0 auto;
+max-width: 800px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+
+    background-color: rgb(247, 77, 77);
+}
+
+#topo{
+    margin-top: 10px;
+    background-color: black;
+    color: #009931;
+  
+}
+.topo{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 a{
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ h2{
+    font-size: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-perfil{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-radius: 50%;
+}
+.img-perfil:hover{
+    width: 135px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.dev{
+    color: red;
+}
+
+.name{
+    color: red;
+}
+.sobre-name{
+    color: red;
+}
+
+#information{
+ 
+    padding: 30px;
+    padding-bottom: 150px;
+    background-color: #00A1E9;
+    text-align: center;
+    color:#051016;
+}
+.about{
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 20px;
+
+}
+
+.about2{
+    margin-top: 20px;
+    font-size: 30px;
+    font-style: italic;
+}
+#information p{
+    text-align:center; 
+
+}
+
+.img-ods{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+#contribuir{
+    padding-bottom: 250px;
+ 
+    background-color:#019a32;
+    padding: 50px;
+    text-align: center;
+}
+
+#contribuir p{
+    margin-top: 60px;
+    color: black;
+text-align: center;
+}
+#contribuir a{
+    margin-top: 156px;
+    text-decoration: none;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    transition: ease-in-out 0.3s;
+}
+
+#contribuir a:hover{
+    color: yellow;
+    font-size: 20px;
+
+}
+
+footer{
+    background-color: #ff8d00;
+     height:500px; 
+}
+
+
+
+ /* #contribuir .div-init2{
+    flex-direction: row;
+    justify-content: center;
+}  */
+
+
+.footer .inicio1 {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  
+    
+    
+    padding: 10px;
+    background-color: rgb(45, 54, 215);
+    color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 3px 6px 8px black;
+    transition: ease-in-out 0.2s;
+
+}
+
+/* #contact{
+    display: flex;
+    text-align: center;
+}  */
+/* .contato{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    /* text-align: center; 
+} */
+.footer .inicio1:hover{
+    background-color: rgb(99, 139, 240);
+    color: rgb(23, 23, 24);
+}
+
+#contribuir .inicio2 {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      
+      text-align: center;
+    margin-top: 20px;
+  
+    padding-top: 5px;
+    padding: 15px;
+    background-color: rgb(0, 13, 255);
+    color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 3px 6px 8px black;
+    transition: ease-in-out 0.2s;
+  
+}
+#contribuir .inicio2:hover{
+    background-color: rgb(99, 139, 240);
+    color: rgb(23, 23, 24);
+}
+   section footer div-init{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}   
+ 
+
+
+   footer .inicio1:hover{
+    width: 120px;
+    background-color: white;
+    color: blue;
+    font-size: 20px;
+}   
+
+h2{
+    margin-left: 30px;
+    font-size: 50px;
+    padding-top:  30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    color: rgb(63, 46, 46);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ footer a{
+    text-decoration: none;
+} 
+
+.linkedin{
+    color: red;
+}
+
+.linkedin:hover{
+    color: greenyellow;
+    font-size: 35px;
+    transition: ease-in-out 0.3s;
+}
+.email:hover{
+    font-size: 35px;
+    color:greenyellow ;
+    transition: ease-in-out 0.2s;
+}
+ul li{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.tel:hover{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 32px;
+    font-style: italic;
+ 
+}
+
+.efone:hover{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 33px;
+    font-style: italic;
+   
+
+}
+
+.reg:hover{
+    cursor: pointer;
+    font-size:34px;
+    font-style: italic;
+    font-weight: 700;
+   
+}
+
+.nove:hover{
+    cursor: pointer;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 700;
+   
+}
+
+.prim:hover{
+    cursor: pointer;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+   
+}
+
+.sec:hover{
+    cursor: pointer;
+    font-size: 37px;
+    font-weight: 900;
+}
+
+.ter:hover{
+    cursor: pointer;
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 700;
+   
+}
+.cidade:hover{
+    font-weight: 700;
+    font-size: 39px;
+    font-style: italic;
+  
+}
+
+@media (max-width: 500px) {
+
+     .topo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    } 
+    .img-perfil{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin-left: calc(35% + 0px);
+        margin-left: 150px;
+       
+
+    }
+    .img-perfil:hover{
+        width: 135px;
+        transition: ease-in-out 0.3s;
+        cursor: pointer;
+    }
+    
+  }
